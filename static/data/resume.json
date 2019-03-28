@@ -1,0 +1,156 @@
+{
+    "summary": "Design-driven web developer with strengths in user interface design, Javascript, and React development. Strong command of design software for prototyping and development hand-off. Experience in client-facing roles and agile teams with specific focus on component-based user interface systems.", 
+    "experience": [
+        {    
+            "role": {
+                "title": "Web Developer",
+                "company": "Pear Design",
+                "date": "Feb. 2017 - Present",
+                "details": [
+                    { "detail": "Designed web and mobile applications focusing on component systems using tools for prototyping, client feedback, and developer hand-off." },
+                    { "detail": "Developed websites and web applications independently and within agile teams with a front-end focus in Javascript ES6, React, and Django." },
+                    { "detail": "Oversaw agency contracts, working with clients and developer teams to manage Scope of Work, Specifications and subcontractor agreements." }
+                ]
+            }
+        }
+    ], 
+    "projects": [
+        {
+            "project": {
+                "title": "Impakt",
+                "link": "/resume",
+                "date": "Aug. 2018 - Present",
+                "details":[
+                    { "detail": "Designed browser extension to display ethics data on companies and products through inline alerts on Amazon product and search pages." },
+                    { "detail": "Worked with product owners, research partners, and developer teams to update designs to meet evolving product requirements and capabilities." },
+                    { "detail": "Designed and assisted in developing product marketing and community blog website with Django REST, Wagtail CMS and BEM SASS." }
+                ]
+            }
+        },
+        {
+            "project": {
+                "title": "Happy Active Famiy",
+                "link": "haf",
+                "date": "Nov. 2018 - Feb. 2019",
+                "details":[
+                    { "detail": "Designed mobile application for active-lifestyle parents to plan and share family-friendly activities, integrated with content and product marketing." },
+                    { "detail": "Worked with client and developers to wireframe and prototype features to meet brand strategy, business goals, and address core user needs." }
+                ]
+            }
+        },
+        {
+            "project": {
+                "title": "Assemblyman Robert Karabinchak",
+                "link": "karabinchak",
+                "date": "Oct. 2018 - Jan. 2019",
+                "details":[
+                    { "detail": "Designed and developed NJ State Assemblyman's constituent services website in React using GatsbyJS, CSS Modules, and GraphQL." },
+                    { "detail": "Integrated GraphQL APIs with content management webhooks enabling continuous deployment linked to existing communications platforms." }
+                ]
+            }
+        },
+        {
+            "project": {
+                "title": "Mari for Michigan",
+                "link": "mari",
+                "date": "Aug. 2017 - May 2018",
+                "details":[
+                    { "detail": "Created visual identity for successful first-time political candidate, designing unified brand assets across digital, print and signage." },
+                    { "detail": "Designed and developed campaign website with static-content generation, integrated headless CMS, and continuous deployment." }
+                ]
+            }
+        }
+    ],
+    "skills": [
+        {
+            "skill": {
+                "label":"Design",
+                "list": [
+                    { "value": "UI / UX Design" },
+                    { "value": "Visual Design" },
+                    { "value": "Wireframing" },
+                    { "value": "High-fidelity Mockups" },
+                    { "value": "Rapid Prototyping" },
+                    { "value": "Usability Testing" },
+                    { "value": "OOCSS" },
+                    { "value": "Atomic Design" }
+                ]
+            }
+        },
+        {
+            "skill": {
+                "label":"Development",
+                "list": [
+                    { "value": "Javascript ES6+" },
+                    { "value": "Python / Django" },
+                    { "value": "React" },
+                    { "value": "Rest API" },
+                    { "value": "GraphQL" },
+                    { "value": "Redux" },
+                    { "value": "Node.js" },
+                    { "value": "npm" },
+                    { "value": "GatsbyJS" },
+                    { "value": "HTML5 / CSS3" },
+                    { "value": "CSS Modules" },
+                    { "value": "SASS / LESS" },
+                    { "value": "PostGreSQL" },
+                    { "value": "WordPress" },
+                    { "value": "Webpack" },
+                    { "value": "Babel" },
+                    { "value": "jQuery" },
+                    { "value": "Unit Testing" },
+                    { "value": "CI / CD; Travis CI" },
+                    { "value": "WCAG 2.0" }
+                ]
+            }
+        },
+        {
+            "skill": {
+                "label":"Tools",
+                "list": [
+                    { "value": "Figma" },
+                    { "value": "Sketch" },
+                    { "value": "Framer X" },
+                    { "value": "InVision" },
+                    { "value": "Abstract" },
+                    { "value": "Adobe CC" },
+                    { "value": "git / GitHub" },
+                    { "value": "Linux" }
+                ]
+            }
+        }
+    ],
+    "old": [{
+            "design":[{
+                "label": "Design",
+                "list": [
+                    "UI / UX Design", 
+                    "Visual Design", 
+                    "Wireframing", 
+                    "High-fidelity Mockups", 
+                    "Rapid Prototyping", 
+                    "Usability Testing", 
+                    "OOCSS", 
+                    "Atomic Design"
+                ]
+                }]
+            },
+        {
+            "label": "Development",
+            "list": [
+                
+            ]
+        },
+        {
+            "label": "Tools",
+            "list": [
+                
+            ]
+        }
+    ],
+    "education": {
+        "school": "Rutgers, The State University of New Jersey",
+        "degree": "B.A. Geography; 2011 - 2015",
+        "detail": "Certificates in Urban Planning & Real Estate"
+    }
+}

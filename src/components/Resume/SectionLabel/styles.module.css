@@ -1,0 +1,11 @@
+.container {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin: 16px 0;
+}
+
+.text {
+  text-transform: uppercase;
+  margin: 8px 0;
+  padding: 0;
+}

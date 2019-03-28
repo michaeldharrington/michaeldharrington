@@ -1,0 +1,23 @@
+
+
+.sidebar {
+  max-width: 352px;
+}
+
+
+.roleHeader {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.projectHeader {
+  composes: roleHeader;
+}
+.skillList{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px,1fr));
+}
+.skill {
+  padding: 0 0 8px 0;
+}

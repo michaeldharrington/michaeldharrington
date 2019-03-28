@@ -1,0 +1,12 @@
+.container{
+  display: grid;
+  margin: 32px 0;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  /*
+  grid-template-rows: repeat(auto-fill, minmax(400px, 1fr));
+  */
+  grid-auto-rows: 344px;
+  box-sizing: border-box;
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+}
