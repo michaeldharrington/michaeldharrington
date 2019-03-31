@@ -3,7 +3,12 @@ import Layout from "../components/Layout"
 import ProjectHeader from "../components/ProjectHeader"
 import ProjectDetails from "../components/ProjectDetails"
 import Image from "../components/Image"
-import feature from "../../static/images/peardesign/feature5.png"
+import feature from "../../static/images/peardesign/feature2.png"
+import DesktopSS from "../components/DesktopSS"
+
+import PDDesktopHome from "../../static/images/peardesign/PD_ss_home.png"
+import PDDesktopEWCC from "../../static/images/peardesign/PD_ss_ewcc.png"
+import PDDesktopContact from "../../static/images/peardesign/PD_ss_contact.png"
 
 export default () => (
   <Layout>
@@ -46,6 +51,8 @@ export default () => (
         </p>
       </div>
     </ProjectDetails>
-    <DesktopSS img="" caption="" />
+    <DesktopSS img={PDDesktopHome} caption="" />
+    <DesktopSS img={PDDesktopEWCC} caption="" />
+    <DesktopSS img={PDDesktopContact} caption="" />
   </Layout>
 )
