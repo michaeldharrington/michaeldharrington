@@ -3,16 +3,15 @@ import Link from "gatsby-link"
 import styles from "./styles.module.css"
 import data from "../../../static/data/resume.json"
 import SectionLabel from "./SectionLabel"
+import Section from "./Section"
 
 export default () => (
   <div className={styles.container}>
     <div className={styles.main}>
-      <section>
-        <SectionLabel section="Professional Summary" />
+      <Section label="Professional Summary">
         <p>{data.summary}</p>
-      </section>
-      <section>
-        <SectionLabel section="Experience" />
+      </Section>
+      <Section label="Experience">
         {data.experience.map(({ role }) => {
           return (
             <div className={styles.role} key={role.title}>
@@ -35,9 +34,8 @@ export default () => (
             </div>
           )
         })}
-      </section>
-      <section>
-        <SectionLabel section="Recent Projects" />
+      </Section>
+      <Section label="Recent Projects">
         {data.projects.map(({ project }) => {
           return (
             <div className={styles.project}>
@@ -59,11 +57,10 @@ export default () => (
             </div>
           )
         })}
-      </section>
+      </Section>
     </div>
     <div className={styles.sidebar}>
-      <section>
-        <SectionLabel section="Connect" />
+      <Section label="Connect">
         <a
           href="https://www.linkedin.com/in/michaeldharrington/"
           target="_blank"
@@ -113,9 +110,8 @@ export default () => (
             PDF
           </a>
         </div>
-      </section>
-      <section>
-        <SectionLabel section="Technical Skills" />
+      </Section>
+      <Section label="Technical Skills">
         {data.skills.map(({ skill }) => {
           return (
             <div className={styles.skillContainer}>
@@ -128,8 +124,8 @@ export default () => (
             </div>
           )
         })}
-      </section>
-      <section>
+      </Section>
+      <Section label="Education">
         <SectionLabel section="Education" />
         <div className={styles.roleHeader}>
           <div>
@@ -139,7 +135,7 @@ export default () => (
         <p className="">
           {data.education.degree} <br /> {data.education.detail}
         </p>
-      </section>
+      </Section>
     </div>
   </div>
 )
