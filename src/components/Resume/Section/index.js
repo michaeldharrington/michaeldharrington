@@ -9,6 +9,7 @@ export class Section extends Component {
     this.state = {
       active: true,
     }
+    this.toggleActive = this.toggleActive.bind(this)
   }
 
   toggleActive() {
@@ -22,7 +23,11 @@ export class Section extends Component {
     const { active } = this.state
     return (
       <section className={styles.container}>
-        <SectionLabel section={label} />
+        <SectionLabel
+          section={label}
+          active={active}
+          toggle={this.toggleActive}
+        />
         {active ? <>{children}</> : <></>}
       </section>
     )
