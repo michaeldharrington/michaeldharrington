@@ -7,7 +7,13 @@ export default () => (
   <Layout>
     <div className="page-header">
       <h1>Design-focused frontend developer</h1>
-      <p>Download as PDF</p>
+      <a
+        href="https://github.com/michaeldharrington/resume/raw/master/MichaelDHarrington.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Download as PDF
+      </a>
     </div>
     <Resume />
   </Layout>

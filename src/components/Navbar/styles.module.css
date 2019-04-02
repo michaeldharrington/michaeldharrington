@@ -26,6 +26,13 @@
 .menu>li{
   padding: 0 16px;
 }
+.menu>li>a{
+  text-decoration: none;
+}
 .menu>li:hover{
-  opacity: 0.8;
+  /* opacity: 0.8; */
+}
+.menu>li>a:hover, .active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #292A2C;
 }

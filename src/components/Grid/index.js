@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./styles.module.css"
 import Tile from "../Tile"
 
-import impakt from "../../../static/images/Impakt/impakt-tile.png"
+import impakt from "../../../static/images/impakt/impakt-tile.png"
 import haf from "../../../static/images/haf/haf-tile.png"
 import karabinchak from "../../../static/images/karabinchak/karabinchak-tile.png"
 import pear from "../../../static/images/pear/pear-tile.png"

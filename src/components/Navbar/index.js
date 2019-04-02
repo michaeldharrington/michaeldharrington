@@ -24,13 +24,19 @@ class Navbar extends Component {
         {active ? (
           <ul className={styles.menu}>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" activeClassName={styles.active}>
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about" activeClassName={styles.active}>
+                About
+              </Link>
             </li>
             <li>
-              <Link to="/resume">Resume</Link>
+              <Link to="/resume" activeClassName={styles.active}>
+                Resume
+              </Link>
             </li>
           </ul>
         ) : (

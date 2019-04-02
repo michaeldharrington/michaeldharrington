@@ -126,7 +126,6 @@ export default () => (
         })}
       </Section>
       <Section label="Education">
-        <SectionLabel section="Education" />
         <div className={styles.roleHeader}>
           <div>
             <span className={styles.roleTitle}>{data.education.school}</span>
