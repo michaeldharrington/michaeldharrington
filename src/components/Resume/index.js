@@ -76,7 +76,7 @@ export default () => (
         >
           github.com/michaeldharrington
         </a>
-        <div className={styles.portfolioLabel}>
+        <p className={styles.portfolioLabel}>
           This resume is written in{" "}
           <a
             href="https://github.com/michaeldharrington/resume"
@@ -109,7 +109,7 @@ export default () => (
           >
             PDF
           </a>
-        </div>
+        </p>
       </Section>
       <Section label="Technical Skills">
         {data.skills.map(({ skill }) => {

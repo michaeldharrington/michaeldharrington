@@ -1,11 +1,21 @@
 .container {
-  
+  display: flex;
+  flex-direction: row;
 }
 
 .sidebar {
+  flex: 1;
   max-width: 352px;
+  padding-left: 32px;
 }
-
+.main {
+  flex: 1;
+}
+@media screen and (max-width: 1024px) {
+  .sidebar {
+    max-width: none;
+  }
+}
 
 .roleHeader {
   width: 100%;
