@@ -13,22 +13,26 @@ import Desktop2 from "../../static/images/mari/mari_desktop2.png"
 import Desktop3 from "../../static/images/mari/mari_desktop3.png"
 import Desktop4 from "../../static/images/mari/mari_desktop4.png"
 import Desktop5 from "../../static/images/mari/mari_desktop5.png"
+import ProjectIntro from "../components/ProjectIntro"
 
 export default () => (
   <Layout>
     <ProjectHeader
       title="Mari for Michigan"
-      subtitle="We'll put a little mountain here. We all need a friend. That's one of those happy accidents. You can do anything that you believe you can do."
+      subtitle="
+        Mari Manoogian is a newly elected State Representative serving Michigan's 40th House District.
+        I was brought on by the candidate to develop a brand identity and campaign website.  
+      "
     />
     <Image img={feature} class="mariImage" />
     <ProjectDetails>
       <div>
-        <h4>Role & Tools</h4>
-        <p>info</p>
+        <h4>Role</h4>
+        <p>Designer / Developer</p>
       </div>
       <div>
         <h4>Timeline</h4>
-        <p>info</p>
+        <p>Aug 2017 - April 2018</p>
       </div>
       {/* <div>
         <h4>Code Sample</h4>
@@ -47,10 +51,44 @@ export default () => (
         </p>
       </div>
     </ProjectDetails>
+    <ProjectIntro
+      content="
+        The central branding challenge was to establish a brand identity 
+        which built credibility and trust in a first-time candidate,
+        while still invoking smart, fresh and youthful qualities. 
+      "
+    />
     <Image img={MariBrandBlue} class="brand" />
     {/* <Image img={MariOverview} class="brand" /> */}
     {/* <Image img={MariBrandBlue} class="brand" /> */}
-    <DesktopSS img={Desktop1} caption="About page" />
+
+    <div>
+      <h3>Website</h3>
+      <p>
+        The campaign website was created to provide news and information about
+        the campaign, along with prominent calls to support the campaign by
+        volunteering or donation. The site was designed in Figma and built in
+        Hugo, an open-source static site framework which uses Golang templating
+        to render markdown into HTML.
+      </p>
+      <p>
+        Multiple content types for campaign Endorsements, Press Releases,
+        Campaign Updates, News, and Priorities, were all built through
+        List/index pages, with individual pages generated on markdown
+        templating. This allowed the campaign to curate lists of content by
+        category, tag or any taxonomy they would choose, including location,
+        issue or keyword.
+      </p>
+      <p>
+        With a tight development budget and simple content requirements, a
+        third-party CMS like Forestry.io was a clear benefit to the project,
+        allowing for content editors to publish markdown files to a single repo,
+        triggering site builds through webhooks on each committed content
+        change.
+      </p>
+    </div>
+
+    <DesktopSS img={Desktop1} />
     <DesktopSS img={Desktop2} />
     <DesktopSS img={Desktop3} />
     <DesktopSS img={Desktop4} />
