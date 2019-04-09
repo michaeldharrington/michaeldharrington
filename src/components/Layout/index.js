@@ -9,13 +9,15 @@ import Footer from "../Footer"
 
 const Layout = ({ children }) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.wrapper}>
       <Helmet>
         <title>Michael D Harrington</title>
       </Helmet>
-      <Navbar />
-      <div className={styles.content}>{children}</div>
-      <Footer />
+      <div className={styles.container}>
+        <Navbar />
+        <div className={styles.content}>{children}</div>
+        <Footer />
+      </div>
     </div>
   )
 }

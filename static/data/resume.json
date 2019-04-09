@@ -4,7 +4,10 @@
         {    
             "role": {
                 "title": "Web Developer",
-                "company": "Pear Design",
+                "company": {
+                    "name": "Pear Design",
+                    "link": "https://peardesign.co"
+                },
                 "date": "Feb. 2017 - Present",
                 "details": [
                     { "detail": "Designed web and mobile applications focusing on component systems using tools for prototyping, client feedback, and developer hand-off." },
@@ -69,7 +72,7 @@
                     { "value": "UI / UX Design" },
                     { "value": "Visual Design" },
                     { "value": "Wireframing" },
-                    { "value": "High-fidelity Mockups" },
+                    { "value": "High-fidelity" },
                     { "value": "Rapid Prototyping" },
                     { "value": "Usability Testing" },
                     { "value": "OOCSS" },

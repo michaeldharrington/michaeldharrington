@@ -4,58 +4,24 @@ import styles from "./styles.module.css"
 import data from "../../../static/data/resume.json"
 import SectionLabel from "./SectionLabel"
 import Section from "./Section"
+import Experience from "./Experience"
+import Project from "./Project"
+import Skill from "./Skill"
 
 export default () => (
   <div className={styles.container}>
     <div className={styles.main}>
       <Section label="Professional Summary">
-        <p>{data.summary}</p>
+        <p className={styles.summary}>{data.summary}</p>
       </Section>
       <Section label="Experience">
         {data.experience.map(({ role }) => {
-          return (
-            <div className={styles.role} key={role.title}>
-              <div className={styles.roleHeader}>
-                <div>
-                  <span className={styles.title}>{role.title}</span>
-                  <span className={styles.company}>{role.company}</span>
-                </div>
-                <span className={styles.date}>{role.date}</span>
-              </div>
-              <ul className={styles.roleDetailList}>
-                {role.details.map(({ detail }) => {
-                  return (
-                    <li className={styles.roleDetail} key={detail}>
-                      <p>{detail}</p>
-                    </li>
-                  )
-                })}
-              </ul>
-            </div>
-          )
+          return <Experience role={role} />
         })}
       </Section>
       <Section label="Recent Projects">
         {data.projects.map(({ project }) => {
-          return (
-            <div className={styles.project}>
-              <div className={styles.projectHeader}>
-                <Link className={styles.title} to={`/${project.link}`}>
-                  {project.title}
-                </Link>
-                <div className={styles.date}>{project.date}</div>
-              </div>
-              <ul className={styles.projectDetails}>
-                {project.details.map(({ detail }) => {
-                  return (
-                    <li className={styles.projectDetail}>
-                      <p>{detail}</p>
-                    </li>
-                  )
-                })}
-              </ul>
-            </div>
-          )
+          return <Project project={project} />
         })}
       </Section>
     </div>
@@ -77,23 +43,6 @@ export default () => (
           github.com/michaeldharrington
         </a>
         <p className={styles.portfolioLabel}>
-          This resume is written in{" "}
-          <a
-            href="https://github.com/michaeldharrington/resume"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React/CSS Grid
-          </a>
-          , and previously{" "}
-          <a
-            href="https://github.com/michaeldharrington/resume"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            BEM SASS
-          </a>
-          .<br />
           <a
             href="https://github.com/michaeldharrington/resume"
             target="_blank"
@@ -113,16 +62,7 @@ export default () => (
       </Section>
       <Section label="Technical Skills">
         {data.skills.map(({ skill }) => {
-          return (
-            <div className={styles.skillContainer}>
-              <h4 className={styles.skillListLabel}>{skill.label}</h4>
-              <ul className={styles.skillList}>
-                {skill.list.map(({ value }) => {
-                  return <li className={styles.skill}>{value}</li>
-                })}
-              </ul>
-            </div>
-          )
+          return <Skill skill={skill} />
         })}
       </Section>
       <Section label="Education">

@@ -25,7 +25,7 @@ class Navbar extends Component {
           <ul className={styles.menu}>
             <li>
               <Link to="/" activeClassName={styles.active}>
-                Home
+                Work
               </Link>
             </li>
             <li>

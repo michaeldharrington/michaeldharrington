@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import Image from "../components/Image"
+import ProjectFeature from "../components/ProjectFeature"
 import ProjectHeader from "../components/ProjectHeader"
 import ProjectDetails from "../components/ProjectDetails"
 
@@ -10,9 +10,9 @@ export default () => (
   <Layout>
     <ProjectHeader
       title="Assemblyman Robert Karabinchak"
-      subtitle="We'll put a little mountain here. We all need a friend. That's one of those happy accidents. You can do anything that you believe you can do."
+      subtitle="Robert Karabinchak is an elected legislator in New Jersey's State Assembly, representing the 18th Legislative District. I was brought on by the Communications team to design and build a constituent services website ."
     />
-    <Image img={feature} class="karabinchakFeature" />
+    <ProjectFeature img={feature} class="karabinchakFeature" />
     <ProjectDetails>
       <div>
         <h4>Role & Tools</h4>

@@ -4,11 +4,21 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 } */
 
+.wrapper{
+  /* border-top: 10px solid #007ed5; */
+}
+
 .container {
   max-width: 1152px;
   margin: 16px auto;
 }
+@media screen and (min-width: 600px) {
+  .wrapper {
+    padding: 0 16px;
+  }
+}
 
 .content {
+  min-height: calc(540px);
   margin: 16px;
 }

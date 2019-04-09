@@ -1,17 +1,25 @@
 html {
   font-size: 18px;
   color: #292A2C;
+  overflow-y: scroll;
 }
 
 p {
   font-size: 18px;
   line-height: 32px;
 }
-
-
 a {
   color: inherit;
 }
+p>a{
+  text-decoration: none;
+  color: #007ed5;
+}
+p>a:hover{
+  /* color: #292A2C; */
+  text-decoration: underline;
+}
+
 h1,
 h2,
 h3,
@@ -31,5 +39,12 @@ li {
 }
 
 .page-header {
-  padding: 48px 0 56px;
+  padding: 64px 0 64px;
+  max-width: 736px;
+}
+
+.content,
+.intro {
+  max-width: 736px;
+  margin: 40px auto;
 }

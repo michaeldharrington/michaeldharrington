@@ -1,11 +1,12 @@
 import React from "react"
+import Link from "gatsby-link"
 import styles from "./styles.module.css"
 
 export default props => {
   const { project } = props
   return (
-    <div className={styles.project}>
-      <div className={styles.projectHeader}>
+    <div className={styles.container}>
+      <div className={styles.header}>
         <Link className={styles.title} to={`/${project.link}`}>
           {project.title}
         </Link>

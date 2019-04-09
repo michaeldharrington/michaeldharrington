@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  composes: title from '../Project/styles.module.css';
+}
+.date {
+  composes: date from '../Project/styles.module.css';
+}
+.company {
+  padding-left: 24px;
+}

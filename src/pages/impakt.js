@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import Image from "../components/Image"
+import ProjectFeature from "../components/ProjectFeature"
 import ProjectHeader from "../components/ProjectHeader"
 import ProjectDetails from "../components/ProjectDetails"
 
