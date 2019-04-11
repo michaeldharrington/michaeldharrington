@@ -16,10 +16,10 @@ export default () => (
         .
       </h1>
       <p>
-        I graduated from Rutgers University, with a degree in Geography and
-        Urban Planning. Since then, I've lived in Portland, OR and Washington
-        D.C., travelled to all 48 of the contiguous U.S. states, and ran my
-        first (but not last) marathon.
+        I grew up in New Jersey, and graduated from Rutgers University where I
+        studied Geography and Urban Planning. Since then, I've lived in
+        Portland, OR and Washington D.C., travelled to all 48 of the contiguous
+        U.S. states, and ran my first (but not last) marathon.
       </p>
       <p>
         You can connect with me on{" "}
@@ -32,7 +32,7 @@ export default () => (
         </a>{" "}
         or make bad jokes with me on{" "}
         <a
-          href="https://twitter.com/mdharrington_"
+          href="https://twitter.com/mdharrington_/status/1105242864399704064"
           target="_blank"
           rel="noopener noreferrer"
         >
