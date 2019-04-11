@@ -1,8 +1,6 @@
 import React from "react"
-// import Link from "gatsby-link"
 import styles from "./styles.module.css"
 import data from "../../../static/data/resume.json"
-// import SectionLabel from "./SectionLabel"
 import Section from "./Section"
 import Experience from "./Experience"
 import Project from "./Project"
@@ -46,7 +44,7 @@ export default () => (
         </p>
         <p className={styles.portfolioLabel}>
           <a
-            href="https://github.com/michaeldharrington/resume"
+            href="https://github.com/michaeldharrington/michaeldharrington/blob/master/src/components/Resume/index.js"
             target="_blank"
             rel="noopener noreferrer"
           >
