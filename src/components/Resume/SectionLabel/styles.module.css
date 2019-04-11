@@ -28,6 +28,11 @@
 .active {
 
 }
+@media screen and (min-width: 800px) {
+  .active {
+    display: none;
+  }
+}
 
 .hidden {
   transform: rotate(90deg);
