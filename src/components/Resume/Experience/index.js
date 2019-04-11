@@ -9,7 +9,11 @@ export default props => {
         <span>
           <span className={styles.title}>{role.title}</span>
           <span className={styles.company}>
-            <a href={role.company.link} target="_blank">
+            <a
+              href={role.company.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {role.company.name}
             </a>
           </span>

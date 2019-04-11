@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Link from "gatsby-link"
 import styles from "./styles.module.css"
-import Menu from "../../../static/icons/Menu"
+// import Menu from "../../../static/icons/Menu"
 
 class Navbar extends Component {
   constructor(props) {
@@ -18,33 +18,33 @@ class Navbar extends Component {
   }
 
   render() {
-    const { active } = this.state
+    // const { active } = this.state
     return (
       <nav className={styles.container}>
-        {active ? (
-          <ul className={styles.menu}>
-            <li>
-              <Link to="/" activeClassName={styles.active}>
-                Work
-              </Link>
-            </li>
-            <li>
-              <Link to="/about" activeClassName={styles.active}>
-                About
-              </Link>
-            </li>
-            <li>
-              <Link to="/resume" activeClassName={styles.active}>
-                Resume
-              </Link>
-            </li>
-          </ul>
-        ) : (
-          <></>
-        )}
+        {/* {active ? ( */}
+        <ul className={styles.menu}>
+          <li>
+            <Link to="/" activeClassName={styles.active}>
+              Work
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" activeClassName={styles.active}>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/resume" activeClassName={styles.active}>
+              Resume
+            </Link>
+          </li>
+        </ul>
+        {/* ) : ( */}
+        {/* <></> */}
+        {/* )} */}
 
         {/* <div className={styles.menuIcon} /> */}
-        <Menu className={styles.menuIcon} onClick={this.toggleActive} />
+        {/* <Menu className={styles.menuIcon} onClick={this.toggleActive} /> */}
       </nav>
     )
   }

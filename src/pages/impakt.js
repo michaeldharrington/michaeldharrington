@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import ProjectFeature from "../components/ProjectFeature"
+// import ProjectFeature from "../components/ProjectFeature"
 import ProjectHeader from "../components/ProjectHeader"
 import ProjectDetails from "../components/ProjectDetails"
 

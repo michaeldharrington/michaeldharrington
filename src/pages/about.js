@@ -16,7 +16,21 @@ export default () => (
         .
       </h1>
       <p>
-        You can make bad jokes with me on{" "}
+        I graduated from Rutgers University, with a degree in Geography and
+        Urban Planning. Since then, I've lived in Portland, OR and Washington
+        D.C., travelled to all 48 of the contiguous U.S. states, and ran my
+        first (but not last) marathon.
+      </p>
+      <p>
+        You can connect with me on{" "}
+        <a
+          href="https://linkedin.com/in/michaeldharrington"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>{" "}
+        or make bad jokes with me on{" "}
         <a
           href="https://twitter.com/mdharrington_"
           target="_blank"
@@ -24,18 +38,8 @@ export default () => (
         >
           Twitter
         </a>
-        , or
+        .
       </p>
     </div>
-    {/* <div className="content">
-      <p>
-        I graduated from Rutgers University, with a degree in Geography and
-        Urban Planning.
-      </p>
-      <p>
-        I grew up in New Jersey, and have lived in Portland, OR and Washington
-        D.C.
-      </p>
-    </div> */}
   </Layout>
 )

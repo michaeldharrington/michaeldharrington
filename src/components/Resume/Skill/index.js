@@ -4,8 +4,8 @@ import styles from "./styles.module.css"
 export default props => {
   const { skill } = props
   return (
-    <div className={styles.skillContainer}>
-      <p className={styles.skillListLabel}>{skill.label}</p>
+    <div className={styles.container}>
+      <p className={styles.label}>{skill.label}</p>
       <ul className={styles.list}>
         {skill.list.map(({ value }) => {
           return <li className={styles.skill}>{value}</li>

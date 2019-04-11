@@ -11,7 +11,7 @@ p {
 a {
   color: inherit;
 }
-p>a{
+p>a, h1>a{
   text-decoration: none;
   color: #007ed5;
 }
@@ -26,6 +26,11 @@ h3,
 h4,
 h5 {
   font-weight: 500;
+}
+
+h1 {
+  font-size: calc(18px + 1.25vw);
+  line-height: 1.25;
 }
 
 ul {

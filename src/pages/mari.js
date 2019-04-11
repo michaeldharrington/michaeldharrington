@@ -14,7 +14,7 @@ import Desktop2 from "../../static/images/mari/mari_desktop2.png"
 import Desktop3 from "../../static/images/mari/mari_desktop3.png"
 import Desktop4 from "../../static/images/mari/mari_desktop4.png"
 import Desktop5 from "../../static/images/mari/mari_desktop5.png"
-import ProjectIntro from "../components/ProjectIntro"
+// import ProjectIntro from "../components/ProjectIntro"
 import ProjectImage from "../components/ProjectImage"
 
 export default () => (
@@ -83,11 +83,11 @@ export default () => (
         The campaign website was created to provide news and information about
         the campaign, along with prominent calls to support the campaign by
         volunteering or donation. The site was designed in{" "}
-        <a href="https://figma.com" target="_blank">
+        <a href="https://figma.com" target="_blank" rel="noopener noreferrer">
           Figma
         </a>{" "}
         and built in{" "}
-        <a href="https://gohugo.io" target="_blank">
+        <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">
           Hugo
         </a>
         , an open-source static site framework which uses Golang templating to
@@ -104,7 +104,7 @@ export default () => (
       <p>
         With a tight development budget and simple content requirements, a
         third-party CMS like{" "}
-        <a href="https://forestry.io" target="_blank">
+        <a href="https://forestry.io" target="_blank" rel="noopener noreferrer">
           Forestry.io
         </a>{" "}
         was a clear benefit to the project, allowing for content editors to

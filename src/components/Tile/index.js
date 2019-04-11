@@ -21,6 +21,7 @@ const Tile = props => {
         <div className={styles.info}>
           <h3 className={styles.title}>{props.title}</h3>
           <p className={styles.details}>{props.details}</p>
+          <i>Project details coming soon</i>
         </div>
       </div>
     </Link>

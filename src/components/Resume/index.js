@@ -1,8 +1,8 @@
 import React from "react"
-import Link from "gatsby-link"
+// import Link from "gatsby-link"
 import styles from "./styles.module.css"
 import data from "../../../static/data/resume.json"
-import SectionLabel from "./SectionLabel"
+// import SectionLabel from "./SectionLabel"
 import Section from "./Section"
 import Experience from "./Experience"
 import Project from "./Project"
@@ -27,21 +27,23 @@ export default () => (
     </div>
     <div className={styles.sidebar}>
       <Section label="Connect">
-        <a
-          href="https://www.linkedin.com/in/michaeldharrington/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          linkedin.com/in/michaeldharrington
-        </a>
-        <br />
-        <a
-          href="https://github.com/michaeldharrington"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          github.com/michaeldharrington
-        </a>
+        <p>
+          <a
+            href="https://www.linkedin.com/in/michaeldharrington/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedin.com/in/michaeldharrington
+          </a>
+          <br />
+          <a
+            href="https://github.com/michaeldharrington"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github.com/michaeldharrington
+          </a>
+        </p>
         <p className={styles.portfolioLabel}>
           <a
             href="https://github.com/michaeldharrington/resume"

@@ -16,6 +16,7 @@
   text-align: center;
   display: flex;
   opacity: 0;
+  padding: 0 8px;
 }
 .container:hover {
   cursor: pointer;
