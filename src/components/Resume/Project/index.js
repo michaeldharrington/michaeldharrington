@@ -7,7 +7,11 @@ export default props => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <Link className={styles.title} to={`/${project.link}`}>
+        <Link
+          className={styles.title}
+          to=""
+          // to={`/${project.link}`}
+        >
           {project.title}
         </Link>
         <div className={styles.date}>{project.date}</div>
