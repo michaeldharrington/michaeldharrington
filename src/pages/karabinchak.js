@@ -12,7 +12,7 @@ export default () => (
       title="Assemblyman Robert Karabinchak"
       subtitle="Robert Karabinchak is an elected legislator in New Jersey's State Assembly, representing the 18th Legislative District. I was brought on by the Communications team to design and build a constituent services website ."
     />
-    <ProjectFeature img={feature} class="karabinchakFeature" />
+    {/* <ProjectFeature img={feature} class="karabinchakFeature" /> */}
     <ProjectDetails>
       <div>
         <h4>Role & Tools</h4>
@@ -30,14 +30,25 @@ export default () => (
         <h4>Live Project</h4>
         <p>
           <a
-            href="https://mariformi.netlify.com/"
+            href="https://staging--karabinchak.netlify.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://mariformi.com
+            https://robertkarabinchak.com
           </a>
         </p>
       </div>
     </ProjectDetails>
+    <div className="content">
+      <h3>Newsroom</h3>
+    </div>
+
+    <div className="content">
+      <h3>Newsroom</h3>
+    </div>
+
+    <div className="content">
+      <h3>Newsroom</h3>
+    </div>
   </Layout>
 )

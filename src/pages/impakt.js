@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 // import ProjectFeature from "../components/ProjectFeature"
 import ProjectHeader from "../components/ProjectHeader"
 import ProjectDetails from "../components/ProjectDetails"
+import Helmet from "react-helmet"
 
 // import feature from "../../static/images/impakt/impakt-tile.png"
 
@@ -15,12 +16,12 @@ export default () => (
     {/* <Image img={feature} class="impaktTile" /> */}
     <ProjectDetails>
       <div>
-        <h4>Role & Tools</h4>
-        <p>info</p>
+        <h4>Role</h4>
+        <p>Product Designer</p>
       </div>
       <div>
         <h4>Timeline</h4>
-        <p>info</p>
+        <p>Aug 2018 - Present</p>
       </div>
       {/* <div>
         <h4>Code Sample</h4>
@@ -30,14 +31,29 @@ export default () => (
         <h4>Live Project</h4>
         <p>
           <a
-            href="https://mariformi.netlify.com/"
+            href="https://impakt.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://mariformi.com
+            https://impakt.app
           </a>
         </p>
       </div>
     </ProjectDetails>
+    <div className="intro">
+      <p>
+        Currently under development, Impakt is a browser extension that helps
+        consumers align their purchases to their values by providing ethical
+        reports on products directly in the browser.
+      </p>
+    </div>
+    <div className="content">
+      <h3>Existing research, new challenges.</h3>
+      <p>
+        Impakt was initially designed with . Following the successful crowd
+        funding, product focus shifted toward the technical challenges of
+        implementing on
+      </p>
+    </div>
   </Layout>
 )

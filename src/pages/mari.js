@@ -14,7 +14,7 @@ import Desktop2 from "../../static/images/mari/mari_desktop2.png"
 import Desktop3 from "../../static/images/mari/mari_desktop3.png"
 import Desktop4 from "../../static/images/mari/mari_desktop4.png"
 import Desktop5 from "../../static/images/mari/mari_desktop5.png"
-// import ProjectIntro from "../components/ProjectIntro"
+import ProjectIntro from "../components/ProjectIntro"
 import ProjectImage from "../components/ProjectImage"
 
 export default () => (
@@ -23,7 +23,7 @@ export default () => (
       title="Mari for Michigan"
       subtitle="
         Mari Manoogian is a newly elected State Representative serving Michigan's 40th House District.
-        I was brought on by the candidate to develop a brand identity and campaign website.  
+        As she launched her first  
       "
     />
     <ProjectFeature img={feature} class="mariImage" />
@@ -53,13 +53,11 @@ export default () => (
         </p>
       </div>
     </ProjectDetails>
-    {/* <ProjectIntro
+    <ProjectIntro
       content="
-        The central branding challenge was to establish a brand identity 
-        which built credibility and trust in a first-time candidate,
-        while still invoking smart, fresh and youthful qualities. 
+      Mari Manoogian is a newly elected State Representative serving Michigan's 40th House District. I was brought on by the candidate to develop a brand identity and campaign website.
       "
-    /> */}
+    />
     <div className="intro">
       <p>intro</p>
     </div>

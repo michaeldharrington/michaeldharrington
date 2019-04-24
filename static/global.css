@@ -53,3 +53,10 @@ li {
   max-width: 736px;
   margin: 40px auto;
 }
+
+.intro>p {
+  padding: 40px 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.65;
+}
